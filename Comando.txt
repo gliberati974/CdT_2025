@@ -1,1 +1,1 @@
-C:\Users\glibe\Java>java -jar .\Saxon\saxon-he-12.0.jar -xsl:transform2.xsl -s:rassegna.xml
+C:\Users\glibe\Java>java -jar .\Saxon\saxon-he-12.0.jar -xsl:transform2.xsl -s:rassegna.xml -o:rassegna2.html
