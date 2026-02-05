@@ -1,0 +1,994 @@
+
+
+/* Colore di sfondo */
+
+body { background-color: lightblue; 
+        text-align: justify;
+    }
+
+/* Primo blocco */
+
+ .header{
+
+    background-color: #fff;
+    border-radius: 30px;
+    margin: 25px;
+    padding: 25px;
+    box-shadow: 0px 0px 16px 0px rgb(96 96 96 / 34%);
+    margin-bottom: 30px;
+    text-align: center;
+  }   
+
+
+/* Secondo blocco */
+
+ .heading{
+    background-color: #fff;
+    border-radius: 30px;
+    width: fit-content;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 0px 0px 16px 0px rgb(96 96 96 / 34%);
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    
+   display: grid;
+   grid-template-rows: auto auto auto; /* Tre righe */
+   gap: 10px; /* Spazio tra gli elementi */
+   align-items: center; /* Allinea verticalmente gli elementi al centro */
+ }   
+
+/* Dimensione immagini dei primi due blocchi*/
+
+   img{
+
+   width: 900px;  /* Larghezza fissa */
+   height: 200px; /* Altezza fissa (può deformare l'immagine) */
+  
+ }
+ 
+
+/*Dimensione dei caratteri del testo*/
+
+ table{
+
+   font-size: 18px;
+   
+
+ }
+
+/*Dimensione caratteri: Descrizione bibliografica */
+
+ .title{
+   font-size: 25px;
+   font-weight: bold;
+   text-decoration: underline;
+ }
+
+
+/* Dimensione caratteri: Sottotitoli */
+
+ .sub-title{
+
+   font-size: 20px;
+   font-weight: bold;
+ }
+
+
+/*Dimensione dei caratteri dei titoli degli articoli */
+
+ .section{
+   font-size: 27px;
+}
+
+/*Dimensione caratteri: colonna1 e colonna2 */
+.col1{
+   font-size: 20px;
+}
+ 
+ .col2{
+  font-size: 20px;
+}
+
+/*Colore di intestazione della tabella riassuntiva in basso */
+
+.color{
+   background-color: #FFFFFF;
+}
+
+
+
+
+/* Impostazioni della descrizione bibliografica*/
+
+ .container-description{
+   background-color: #fff;
+   border-radius: 30px;
+   width: 990px;
+   margin: 30px auto auto auto;
+   padding: 25px;
+   box-shadow: 0px 0px 16px 0px rgb(96 96 96 / 34%);
+   text-align: left;
+   
+   
+ }
+
+
+ /* Impostazioni del blocco del testo*/
+
+ .container{
+    background-color: #fff;
+    border-radius: 30px;
+    width: 990px;
+    margin: 30px auto auto auto;
+    padding: 25px;
+    box-shadow: 0px 0px 16px 0px rgb(96 96 96 / 34%);
+    text-align: left;
+    white-space: nowrap;/* Impedisce al testo di andare a capo.*/
+    
+ }   
+
+
+/* Impostazioni delle sezioni della tabella riassuntiva in basso*/
+
+
+/*Tabelle riassuntive*/
+
+ .tab12{
+   border-radius: 30px;
+   width: fit-content;
+   margin: 2px;
+   padding: 15px;
+   box-shadow: 0px 0px 16px 0px rgb(96 96 96 / 34%);
+   text-align: center;
+   font-style: italic;
+ }
+
+ .tab11{
+
+    border-radius: 30px;
+    width: fit-content;
+    margin: 2px;
+    padding: 15px;
+    box-shadow: 0px 0px 16px 0px rgb(96 96 96 / 34%);
+    text-align: center;
+    font-style: italic;
+ }
+
+
+.tab10{
+
+    border-radius: 30px;
+    width: fit-content;
+    margin: 2px;
+    padding: 15px;
+    box-shadow: 0px 0px 16px 0px rgb(96 96 96 / 34%);
+    text-align: center;
+ }
+
+ 
+ .tab9{
+
+    border-radius: 30px;
+    width: fit-content;
+    margin: 2px;
+    padding: 15px;
+    box-shadow: 0px 0px 16px 0px rgb(96 96 96 / 34%);
+    text-align: center;
+ }
+
+ 
+.tab8{
+   border-radius: 30px;
+   width: fit-content;
+   margin: 2px;
+   padding: 15px;
+   box-shadow: 0px 0px 16px 0px rgb(96 96 96 / 34%);
+   text-align: center;
+}
+
+
+.tab7{
+   border-radius: 30px;
+   width: fit-content;
+   margin: 2px;
+   padding: 15px;
+   box-shadow: 0px 0px 16px 0px rgb(96 96 96 / 34%);
+   text-align: center;
+}
+
+
+.tab6{
+   border-radius: 30px;
+   width: fit-content;
+   margin: 2px;
+   padding: 15px;
+   box-shadow: 0px 0px 16px 0px rgb(96 96 96 / 34%);
+   text-align: center;
+}
+
+
+.tab5{
+   border-radius: 30px;
+   width: fit-content;
+   margin: 2px;
+   padding: 15px;
+   box-shadow: 0px 0px 16px 0px rgb(96 96 96 / 34%);
+   text-align: center;
+}
+
+.tab4{
+   border-radius: 30px;
+   width: fit-content;
+   margin: 2px;
+   padding: 15px;
+   box-shadow: 0px 0px 16px 0px rgb(96 96 96 / 34%);
+   text-align: center;
+}
+
+
+.tab3{
+   border-radius: 30px;
+   width: fit-content;
+   margin: 2px;
+   padding: 15px;
+   box-shadow: 0px 0px 16px 0px rgb(96 96 96 / 34%);
+   text-align: center;
+}
+
+
+.tab2{
+   border-radius: 30px;
+   width: fit-content;
+   margin: 2px;
+   padding: 15px;
+   box-shadow: 0px 0px 16px 0px rgb(96 96 96 / 34%);
+   text-align: center;
+}
+
+
+.tab1{
+   border-radius: 30px;
+   width: fit-content;
+   margin: 2px;
+   padding: 15px;
+   box-shadow: 0px 0px 16px 0px rgb(96 96 96 / 34%);
+   text-align: center;
+}
+ 
+/*Footer*/
+
+.ft{
+   border-radius: 30px;
+   width: fit-content;
+   margin: auto;
+   padding: 15px;
+   box-shadow: 0px 0px 16px 0px rgb(96 96 96 / 34%);
+   text-align: center;
+}
+ 
+
+/*Colori parole nel testo*/
+
+.bibl-color-blue {
+    color: blue;
+    font-weight: bold;
+}
+
+
+.emph-color-red {
+    color: red;
+    font-weight: bold;
+}
+
+
+.place-color-pink {
+    color: pink;
+    font-weight: bold;
+}
+
+.name-person-color-green {
+    color: green;
+    font-weight: bold;
+}
+
+.surname-person-color-purple {
+    color: purple;
+    font-weight: bold;
+}
+
+.religion-color-orange {
+    color: orange;
+    font-weight: bold;
+}
+
+.org-color-grey {
+    color: grey;
+    font-weight: bold;
+}
+
+.donne-color-magenta {
+    color: magenta;
+    font-weight: bold;
+}
+
+
+.uomini-color-cyan {
+    color: cyan;
+    font-weight: bold;
+}
+
+.archaic-color-red {
+    color: red;
+    font-weight: bold;
+}
+
+.emph-color-maroon {
+    color: maroon;
+    font-weight: bold;
+}
+
+
+.role-color-gold {
+    color: gold;
+    font-weight: bold;
+}
+
+
+.population-color-olive {
+    color: olive;
+    font-weight: bold;
+}
+
+
+.sacred-color-yellow {
+    color: yellow;
+    font-weight: bold;
+}
+
+
+.scienza_rel-color-teal {
+    color: teal;
+    font-weight: bold;
+}
+
+
+.num-color-salmon {
+    color: salmon;
+    font-weight: bold;
+}
+
+
+
+/*Impostazioni della tabella della legenda*/
+
+.tab_legenda{
+
+border-radius: 30px;
+margin-left: 100px;
+margin-right: 100px;
+padding: 15px;
+box-shadow: 0px 0px 16px 0px rgb(96 96 96 / 34%);
+text-align: center;
+
+}
+
+/*Colori background rettangoli legenda*/
+
+.legenda-color_white{
+   background-color: white;
+}
+
+.legenda-color_green{
+   background-color: green;
+}
+
+.legenda-color_purple{
+   background-color: purple;
+}
+
+
+.legenda-color_pink{
+   background-color: pink;
+}
+
+.legenda-color_orange{
+   background-color: orange;
+}
+
+.legenda-color_grey{
+   background-color: grey;
+}
+
+.legenda-color_blue{
+   background-color: blue;
+}
+
+.legenda-color_magenta{
+   background-color: magenta ;
+}
+
+.legenda-color_cyan{
+   background-color: cyan ;
+}
+
+.legenda-color_gold{
+   background-color: gold;
+}
+
+.legenda-color_olive{
+   background-color: olive ;
+}
+
+.legenda-color_red{
+   background-color: red ;
+}
+
+.legenda-color_maroon{
+   background-color: maroon ;
+}
+
+.legenda-color_yellow{
+   background-color: yellow ;
+}
+
+.legenda-color_teal{
+   background-color: teal ;
+}
+
+.legenda-color_salmon{
+   background-color: salmon;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
